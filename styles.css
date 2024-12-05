@@ -50,8 +50,8 @@ nav a:hover {
 .scroll-container img{
     display: flex;
     position: sticky;
-    top:57vh;
-    left: 39vw;
+    top:65vh;
+    left: 40vw;
     /* left:22%; */
     border-radius: 50%;
     width: 20%;
@@ -124,3 +124,14 @@ nav a:hover {
 
 
 
+
+
+
+.second-page{
+    width:100%;   
+}
+.author{
+    display:flex;
+    width:100%;
+    justify-content: space-around;
+}
