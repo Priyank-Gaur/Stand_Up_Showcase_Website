@@ -19,8 +19,11 @@ body {
     align-items: center;
     flex-direction: row-reverse;
     justify-content: space-around;
-    
 }
+
+
+
+
 /* Scrolling of header */
 body.scroll-up header {
     transform: translateY(-100%);
@@ -65,78 +68,12 @@ nav a:hover {
         transform: scale(1) rotate(360deg);
     }
 }
-    /* 0%{
-        width:20%
-    }
-    5%{
-        width:19%
-    }
-    10%{
-        width:18%
-    }
-    15%{
-        width:17%
-    }
-    20%{
-        width:16%
-    }
-    25%{
-        width:15%
-    }
-    30%{
-        width:14%
-    }
-    35%{
-        width:13%
-    }
-    40%{
-        width:12%
-    }
-    45%{
-        width:11%
-    }
-    50%{
-        width:10%
-    }
-    55%{
-        width:9%
-    }
-    60%{
-        width:8%
-    }
-    65%{
-        width:7%
-    }
-    70%{
-        width:6%
-    }
-    75%{
-        width:5%
-    }
-    80%{
-        width:4%
-    }
-    85%{
-        width:3%
-    }
-    90%{
-        width:2%
-    }
-    95%{
-        width:1%
-    }
-    100%{
-        width:0%
-    }
-} */
 
 .logo{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-
 
 
 /* Background Scrolling Section */
@@ -165,9 +102,8 @@ nav a:hover {
         transform: translateX(-50%);
     }
 }
+
 /* Completed... */
-
-
 #logoname{
     display: flex;
     justify-content: center;
