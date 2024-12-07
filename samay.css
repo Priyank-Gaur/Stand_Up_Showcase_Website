@@ -17,3 +17,33 @@
 margin-top: 40px;
 margin-bottom: 40px;
 }
+.shows{
+    background-color: white;
+    width:29%;
+    border: 1px solid salmon;
+    padding: 2vh;
+
+}
+.shows-main-div{
+    display:flex;
+    flex-wrap: wrap;
+    row-gap: 5vh;
+    justify-content: space-around ;
+}
+.shows img{
+    cursor: pointer;
+}
+.shows-main-div img{
+    width:100%;
+}
+p{
+    text-align: justify;
+}
+h2{
+    text-align: center;
+}
+.shows button{ 
+    text-align: center;height: 30px;
+    margin-left:150px;
+    ;background-color: rgb(248, 68, 100);
+}
