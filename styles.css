@@ -168,7 +168,7 @@ nav a:hover {
 }
 .shows{
     background-color: white;
-    width:29%;
+    width:25%;
     border: 1px solid salmon;
     padding: 2vh;
 
@@ -201,4 +201,52 @@ h2{
   
 .book-now-btn:hover {
     background-color: #3e8e41;
+}
+
+
+/* Comedy Clubs Section */
+
+
+.section4{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 4vh;
+
+}
+.place{
+    width:40vw;
+    display:flex;
+    /* flex-wrap: wrap; */
+    border: 2px solid black;
+    border-radius: 10px;
+    justify-content: space-around;
+    padding:10px;
+    background-color: white;
+
+}
+.info{
+    text-align: center;
+}
+.social{
+    display:flex;
+    justify-content: space-around;
+}
+.social img{
+    width:4vh;
+    height:4vh;
+    border-radius: 50%;
+}
+.social button{
+    width: 6vh;
+    height: 4vh;
+}
+.thumb{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.thumb img{
+    width:20vh;
+    height: 20vh;
+    border-radius: 50%;
 }
