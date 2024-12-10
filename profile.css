@@ -46,7 +46,6 @@ nav a:hover {
 
 .gif {
     display:flex;
-    border-radius: 10px;
     margin-bottom: 10px;
     background:linear-gradient(to right, #5982a6, #6ddbb8);justify-content:space-between;
     padding:20px;
@@ -130,7 +129,45 @@ button:hover {
 .glow{
     font-size: 3rem;
     font-weight: bold;
-    color: black;
-    text-shadow: 0 0 5px whitesmoke, 0 0 10px whitesmoke, 0 0 20px whitesmoke, 0 0 30px whitesmoke;
+    color: white;
+    text-shadow: 0 0 5px rgb(81, 180, 225), 0 0 10px rgb(81, 180, 225), 0 0 20px rgb(81, 180, 225), 0 0 30px rgb(81, 180, 225);
 }
 
+.upcoming{
+    display: flex;
+    background-color: white;
+    width:61%;
+    justify-content: space-between;
+    border: 3px solid #faa672;
+    border-radius: 10px;
+    padding: 2vh;
+    gap:2vh;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.upcoming button{
+    text-align: center;
+    height: 40px;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: rgb(248, 68, 100);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+.upcoming:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 1.1rem;
+}
+footer p{
+    text-align: center;
+}
